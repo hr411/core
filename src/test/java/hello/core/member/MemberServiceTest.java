@@ -14,7 +14,7 @@ public class MemberServiceTest {
         memberService = appConfig.memberService();
     }
     @Test
-    void join (){
+    void  join (){
         //given
         Member member = new Member(1L, "memberA", Grade.VIP);
         //when
